@@ -1,0 +1,37 @@
+.title{
+    @apply text-4xl my-5 text-center font-medium;
+}
+
+button.outer {@apply m-4 translate-x-44}
+table{
+    @apply table table-auto w-3/4;
+    margin: 0 auto;
+}
+
+th{@apply bg-gray-700 border text-left px-8 py-4 font-medium;}
+td{@apply border px-8 py-4 font-extralight;}
+.btn{@apply bg-blue-500 hover:bg-blue-700 text-white font-light py-2 px-4 rounded mx-4;}
+
+div.modal{
+    @apply fixed top-0 left-0 w-full h-full p-20 bg-gray-900 bg-opacity-50 flex justify-center items-center;
+}
+
+div.modal .modal-box, label, input{
+    @apply bg-gray-800;
+}
+
+div.modal .modal-box{
+    @apply border-white border-2 p-4 rounded;
+}
+
+label{
+    @apply block text-base font-light mb-2;
+}
+
+input{
+    @apply shadow appearance-none border rounded w-full py-2 px-3 leading-tight font-light;  
+}
+
+
+
+
